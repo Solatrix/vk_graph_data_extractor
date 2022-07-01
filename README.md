@@ -54,7 +54,7 @@ The `AllowJS` argument is necessary for rendering pages with JS content, especia
 
 The `threading` argument is optionally left to ```True ``` and allows for simultaneous pages lookup.
 
-The `hyperLinksSelector` argument is a CSS selector which is looking for HTML elements consisting of other links to VK communities. In this example we're using the "Links" section in the right bottom hand corner of VK community pages.
+The `hyperlinks_selector` argument is a CSS selector which is looking for HTML elements consisting of other links to VK communities. In this example we're using the "Links" section in the right bottom hand corner of VK community pages.
 
 The `other_data` is a List consisting of CSS Selectors which you can use to scrap other data about a community. In the example above, I'm using it to extract member counts.
  
