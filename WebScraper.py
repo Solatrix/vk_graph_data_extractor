@@ -75,15 +75,3 @@ class Scraper():
 		except Exception as e:
 			raise e
 			print(f"Input error : no website has been carwled")
-
-VKScraper = Scraper({
-	'source':'sites.txt',
-	'threading' : True,
-	'AllowJS' : True,
-	'hyperlinks_selector' : ["aside div#public_links a[href]","div#group_links a[href]"],
-	'other_data' : ["span.header_count"],
-	'output' : {
-		'type' : 'graph',
-		'nodes' : ['id','uri','group_members']
-	}
-})
