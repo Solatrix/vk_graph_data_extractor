@@ -67,3 +67,5 @@ Both `nodes.csv` and `links.csv` files can be used in graph rendering software o
 ### Issues
 The algorithm does not support recursitivity which would enable for deeper community lookup. The scripts would benefit from a in-depth refactoring using Python 3.10 strong typing :)
 If you're encountering issues whilst using the library, feel free to open an issue.
+
+~Disclaimer~ : There are numerous security vulnerability in `requirements.txt` packages, using this library on an industrial platform is strongly discouraged
