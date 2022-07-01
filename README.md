@@ -50,7 +50,7 @@ https://vk.com/myCommunityAddress
 https://vk.com/myOhterCommunityAddress
 https://vk.com/myThirdCommunityAddress
 ```
-The `AlloWJS` argument is necessary for rendering pages with JS content, especially on Social Media where AJAX loading is virtually everywhere.
+The `AllowJS` argument is necessary for rendering pages with JS content, especially on Social Media where AJAX loading is virtually everywhere.
 
 The `threading` argument is optionally left to ```True ``` and allows for simultaneous pages lookup.
 
