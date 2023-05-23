@@ -14,7 +14,7 @@ pyee==7.0.2
 pyppdf==0.0.12
 pyppeteer==0.2.2
 pyquery==1.4.1
-requests==2.22.0
+requests==2.31.0
 requests-html==0.10.0
 six==1.15.0
 soupsieve==2.0.1
